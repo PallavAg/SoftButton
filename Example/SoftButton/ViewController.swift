@@ -10,7 +10,7 @@ import UIKit
 import SoftButton
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var btnPower: SoftButton!
     @IBOutlet weak var btnPlay: SoftButton!
     @IBOutlet weak var btnText: SoftButton!
@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         setUpButtons()
     }
-
+    
     // Handle interface mode change
     override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
         super.traitCollectionDidChange(previousTraitCollection)
@@ -30,6 +30,15 @@ class ViewController: UIViewController {
         btnText.makeNeuromorphic(superView: self.view)
         btnPower.makeNeuromorphic(cornerRadius: btnPower.bounds.height/2, superView: self.view)
     }
+    
+    /*
+     // OR:
+     func setUpButtons() {
+        btnText.bevel = 5
+        btnText.makeNeuromorphic()
+        self.view.backgroundColor = btnText.backgroundColor
+     }
+     */
     
 }
 

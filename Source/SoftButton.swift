@@ -9,7 +9,7 @@ import UIKit
 
 public class SoftButton: UIButton {
     
-    var bevel = 3 // Button 'pop-out' effect amount
+    public var bevel = 3 // Button 'pop-out' effect amount
     
     override open var isHighlighted: Bool {
         didSet { isHighlighted ? pressed() : released() }
