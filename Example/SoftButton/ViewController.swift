@@ -7,18 +7,26 @@
 //
 
 import UIKit
+import SoftButton
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var btn: SoftButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    override func viewDidAppear(_ animated: Bool) {
+        btn.makeNeuromorphic(superView: self.view)
     }
 
+    // Handle interface mode change
+    override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+        super.traitCollectionDidChange(previousTraitCollection)
+        btn.makeNeuromorphic(superView: self.view)
+    }
+    
 }
 

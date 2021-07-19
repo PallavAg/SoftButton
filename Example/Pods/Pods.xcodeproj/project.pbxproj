@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		53884DA09F5FE7A0D838CC844F5CBD79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		53A522581C3C7955BBE9A36C5822315B /* Pods-SoftButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B62866482FD526A7DBC84E9B5E0709 /* Pods-SoftButton_Tests-dummy.m */; };
-		53D619FE1FEF7F88DF0EB8D28FDA9F17 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC853EFE340707BE54E07535B3EFDF8 /* ReplaceMe.swift */; };
 		63F84CA00C6A8300513BE6E99A200CA7 /* Pods-SoftButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BC15798A6733246972B5FA848E0583 /* Pods-SoftButton_Example-dummy.m */; };
 		6F4D4241EB33EC36CCC43B7B485E96A9 /* Pods-SoftButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3471DADE651070C24F8EB18CC38BEAC1 /* Pods-SoftButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		760A101E26A560E00017C207 /* SoftButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760A101D26A560E00017C207 /* SoftButton.swift */; };
 		78254B362F9B788ED098B23BDBACF303 /* SoftButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A08D8B97A7F9658EDF874CE521AFEA /* SoftButton-dummy.m */; };
 		7D8EB148D95832D4B0C751034534E00C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		BB9F703E42B6EDD7A677217DFF386EE6 /* Pods-SoftButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34E0F337DFFD00FDFAD14795F44C7109 /* Pods-SoftButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -44,20 +44,20 @@
 		3471DADE651070C24F8EB18CC38BEAC1 /* Pods-SoftButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SoftButton_Tests-umbrella.h"; sourceTree = "<group>"; };
 		34E0F337DFFD00FDFAD14795F44C7109 /* Pods-SoftButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SoftButton_Example-umbrella.h"; sourceTree = "<group>"; };
 		371A527CC9673D42D9ACF849F100139C /* Pods-SoftButton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SoftButton_Tests-Info.plist"; sourceTree = "<group>"; };
-		38D1A27520F06E1B4D2D0A1B625F123B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		38D1A27520F06E1B4D2D0A1B625F123B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		457D37E3720F8D806BFEDAFA6A0F7733 /* Pods-SoftButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SoftButton_Example-frameworks.sh"; sourceTree = "<group>"; };
 		470344A7DF8EEEDCF29F25145647BDB2 /* SoftButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SoftButton.debug.xcconfig; sourceTree = "<group>"; };
 		4A514B6FFE1BBD27214A4B844F8D1893 /* SoftButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SoftButton.modulemap; sourceTree = "<group>"; };
 		4A7D017F7E193BC2939A2E93EF63AF8A /* SoftButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SoftButton-Info.plist"; sourceTree = "<group>"; };
 		573AFEFC17750E60C2914073FE60A127 /* Pods-SoftButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SoftButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5B49BCD2B2FF26C33E6823D48731854D /* SoftButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SoftButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5D73A96690CC350F95DF9A7F6D534382 /* Pods_SoftButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SoftButton_Tests.framework; path = "Pods-SoftButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B49BCD2B2FF26C33E6823D48731854D /* SoftButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SoftButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5D73A96690CC350F95DF9A7F6D534382 /* Pods_SoftButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoftButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68A08D8B97A7F9658EDF874CE521AFEA /* SoftButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SoftButton-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		760A101D26A560E00017C207 /* SoftButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftButton.swift; sourceTree = "<group>"; };
 		77B221F0E963F248D6EDBE70093FCA6F /* Pods-SoftButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SoftButton_Example.modulemap"; sourceTree = "<group>"; };
-		7EC853EFE340707BE54E07535B3EFDF8 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SoftButton/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		87AFF426E04EB7DA075A24F8C551322F /* Pods-SoftButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SoftButton_Tests.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C2CE99E05C9F962B254D7E6970885270 /* Pods-SoftButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoftButton_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CD212E84B78923C5803657CA628659FC /* SoftButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SoftButton.release.xcconfig; sourceTree = "<group>"; };
 		D13511B9D0846C8CA6C1D1E11033DE76 /* Pods-SoftButton_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SoftButton_Example-Info.plist"; sourceTree = "<group>"; };
@@ -66,10 +66,10 @@
 		D923519272E49C4589FA2FDA1C51803E /* Pods-SoftButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoftButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DEE8A2E4A34B83107E334DF6CF1017E0 /* Pods-SoftButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoftButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E80E4098E6DD6F774C6B32733000FB50 /* Pods-SoftButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SoftButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		EA602F4287EF114450FF0CFEF83D2654 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EA602F4287EF114450FF0CFEF83D2654 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		EF50F9A25C0EF16E5966FB3343346F44 /* SoftButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SoftButton-prefix.pch"; sourceTree = "<group>"; };
-		F2498406C23613BC2A40566F7D3D0C7D /* SoftButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SoftButton.framework; path = SoftButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDEF3D1FF012DEF1A86B87EE088131BF /* Pods_SoftButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SoftButton_Example.framework; path = "Pods-SoftButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2498406C23613BC2A40566F7D3D0C7D /* SoftButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SoftButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDEF3D1FF012DEF1A86B87EE088131BF /* Pods_SoftButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoftButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,7 @@
 		37761136BB9898FD551A8217B1637328 /* SoftButton */ = {
 			isa = PBXGroup;
 			children = (
-				7EC853EFE340707BE54E07535B3EFDF8 /* ReplaceMe.swift */,
+				760A101C26A560A30017C207 /* Source */,
 				61F8B47392E6A195787D3321F2F534C3 /* Pod */,
 				69129F291ADBA614AC34FC83B3D689CA /* Support Files */,
 			);
@@ -185,6 +185,14 @@
 				402D5B7A3F503D46B1D186B88626BF8D /* Pods-SoftButton_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		760A101C26A560A30017C207 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				760A101D26A560E00017C207 /* SoftButton.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		83C8EF5A90EB818FF48F5B08241A8AD9 /* Pods-SoftButton_Example */ = {
@@ -317,6 +325,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					6B8ED2876EFF239145A7C2FA6D065309 = {
+						LastSwiftMigration = 1250;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -383,8 +396,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53D619FE1FEF7F88DF0EB8D28FDA9F17 /* ReplaceMe.swift in Sources */,
 				78254B362F9B788ED098B23BDBACF303 /* SoftButton-dummy.m in Sources */,
+				760A101E26A560E00017C207 /* SoftButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,7 +472,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -487,7 +500,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SoftButton_Tests/Pods-SoftButton_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SoftButton_Tests/Pods-SoftButton_Tests.modulemap";
@@ -519,7 +532,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SoftButton_Tests/Pods-SoftButton_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SoftButton_Tests/Pods-SoftButton_Tests.modulemap";
@@ -552,7 +565,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SoftButton_Example/Pods-SoftButton_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SoftButton_Example/Pods-SoftButton_Example.modulemap";
@@ -574,6 +587,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 470344A7DF8EEEDCF29F25145647BDB2 /* SoftButton.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -585,7 +599,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SoftButton/SoftButton-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SoftButton/SoftButton-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SoftButton/SoftButton.modulemap";
 				PRODUCT_MODULE_NAME = SoftButton;
@@ -593,7 +607,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -615,7 +630,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SoftButton_Example/Pods-SoftButton_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SoftButton_Example/Pods-SoftButton_Example.modulemap";
@@ -682,13 +697,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -698,6 +712,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CD212E84B78923C5803657CA628659FC /* SoftButton.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -709,7 +724,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SoftButton/SoftButton-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SoftButton/SoftButton-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SoftButton/SoftButton.modulemap";
 				PRODUCT_MODULE_NAME = SoftButton;
@@ -717,7 +732,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
