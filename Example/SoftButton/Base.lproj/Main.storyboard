@@ -19,8 +19,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vx3-1D-d9k" customClass="SoftButton" customModule="SoftButton">
+                                <rect key="frame" x="147.5" y="397.5" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="EDn-wd-UOD"/>
+                                    <constraint firstAttribute="width" constant="80" id="LIP-1p-h7z"/>
+                                </constraints>
+                                <state key="normal" image="play.fill" catalog="system"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fjn-jh-4qt" customClass="SoftButton" customModule="SoftButton">
+                                <rect key="frame" x="77" y="293.5" width="221" height="80"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="21"/>
+                                <state key="normal" title="Neumorphic Button"/>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J1b-Np-c2Q" customClass="SoftButton" customModule="SoftButton">
-                                <rect key="frame" x="40" y="293.5" width="295" height="80"/>
+                                <rect key="frame" x="40" y="189.5" width="295" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="zfP-NZ-TPn"/>
                                 </constraints>
@@ -30,20 +43,29 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="J1b-Np-c2Q" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="24" id="LAZ-CE-8N9"/>
-                            <constraint firstItem="J1b-Np-c2Q" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="WXd-f4-er7"/>
+                            <constraint firstItem="Vx3-1D-d9k" firstAttribute="top" secondItem="Fjn-jh-4qt" secondAttribute="bottom" constant="24" id="PLL-Wf-rqG"/>
+                            <constraint firstItem="Fjn-jh-4qt" firstAttribute="height" secondItem="J1b-Np-c2Q" secondAttribute="height" id="Yuf-12-UIi"/>
+                            <constraint firstItem="Vx3-1D-d9k" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="Zfn-fS-K4A"/>
+                            <constraint firstItem="Fjn-jh-4qt" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="aXQ-Ry-XrG"/>
+                            <constraint firstItem="Fjn-jh-4qt" firstAttribute="width" secondItem="J1b-Np-c2Q" secondAttribute="width" multiplier="0.75" id="bb9-ZI-K6X"/>
                             <constraint firstAttribute="trailingMargin" secondItem="J1b-Np-c2Q" secondAttribute="trailing" constant="24" id="eUf-Ie-oYi"/>
+                            <constraint firstItem="Fjn-jh-4qt" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="hhj-Wj-n9a"/>
+                            <constraint firstItem="Fjn-jh-4qt" firstAttribute="top" secondItem="J1b-Np-c2Q" secondAttribute="bottom" constant="24" id="yOQ-a1-zu6"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="btn" destination="J1b-Np-c2Q" id="7JB-hs-hes"/>
+                        <outlet property="btnPlay" destination="Vx3-1D-d9k" id="FFa-nl-iBH"/>
+                        <outlet property="btnPower" destination="J1b-Np-c2Q" id="7JB-hs-hes"/>
+                        <outlet property="btnText" destination="Fjn-jh-4qt" id="aCg-RM-IHB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="134" y="133"/>
+            <point key="canvasLocation" x="133.59999999999999" y="132.68365817091455"/>
         </scene>
     </scenes>
     <resources>
+        <image name="play.fill" catalog="system" width="116" height="128"/>
         <image name="power" catalog="system" width="128" height="124"/>
     </resources>
 </document>

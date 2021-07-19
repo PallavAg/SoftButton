@@ -11,21 +11,24 @@ import SoftButton
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var btn: SoftButton!
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+    @IBOutlet weak var btnPower: SoftButton!
+    @IBOutlet weak var btnPlay: SoftButton!
+    @IBOutlet weak var btnText: SoftButton!
     
     override func viewDidAppear(_ animated: Bool) {
-        btn.makeNeuromorphic(superView: self.view)
+        setUpButtons()
     }
 
     // Handle interface mode change
     override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
         super.traitCollectionDidChange(previousTraitCollection)
-        btn.makeNeuromorphic(superView: self.view)
+        setUpButtons()
+    }
+    
+    func setUpButtons() {
+        btnPlay.makeNeuromorphic(cornerRadius: btnPlay.bounds.height/2, superView: self.view)
+        btnText.makeNeuromorphic(superView: self.view)
+        btnPower.makeNeuromorphic(cornerRadius: btnPower.bounds.height/2, superView: self.view)
     }
     
 }
