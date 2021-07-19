@@ -1,0 +1,6 @@
+framework module Pods_SoftButton_Tests {
+  umbrella header "Pods-SoftButton_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

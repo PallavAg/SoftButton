@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'SoftButton_Example' do
+  pod 'SoftButton', :path => '../'
+
+  target 'SoftButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

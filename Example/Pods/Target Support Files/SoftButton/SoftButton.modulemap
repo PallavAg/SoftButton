@@ -1,0 +1,6 @@
+framework module SoftButton {
+  umbrella header "SoftButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

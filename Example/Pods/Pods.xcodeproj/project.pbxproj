@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53884DA09F5FE7A0D838CC844F5CBD79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		53A522581C3C7955BBE9A36C5822315B /* Pods-SoftButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B62866482FD526A7DBC84E9B5E0709 /* Pods-SoftButton_Tests-dummy.m */; };
+		53D619FE1FEF7F88DF0EB8D28FDA9F17 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC853EFE340707BE54E07535B3EFDF8 /* ReplaceMe.swift */; };
+		63F84CA00C6A8300513BE6E99A200CA7 /* Pods-SoftButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BC15798A6733246972B5FA848E0583 /* Pods-SoftButton_Example-dummy.m */; };
+		6F4D4241EB33EC36CCC43B7B485E96A9 /* Pods-SoftButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3471DADE651070C24F8EB18CC38BEAC1 /* Pods-SoftButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78254B362F9B788ED098B23BDBACF303 /* SoftButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A08D8B97A7F9658EDF874CE521AFEA /* SoftButton-dummy.m */; };
+		7D8EB148D95832D4B0C751034534E00C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BB9F703E42B6EDD7A677217DFF386EE6 /* Pods-SoftButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34E0F337DFFD00FDFAD14795F44C7109 /* Pods-SoftButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA1C6B409F31D28130A810AFA1F84C49 /* SoftButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D29F7DBD23E5670F76E94C9B16517B4C /* SoftButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE1A8CBD0F0FAE81F25BF3E264E56BCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A081B5A6AA0B836A0124CE3D72490C5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B8ED2876EFF239145A7C2FA6D065309;
+			remoteInfo = SoftButton;
+		};
+		E0F9F443CBE6A9D36BF31F4C06C91812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA441183B24E46CA61C05265188B7ED5;
+			remoteInfo = "Pods-SoftButton_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08B62866482FD526A7DBC84E9B5E0709 /* Pods-SoftButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SoftButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		0B51702D9C4B13C0D0EB85F9F335018A /* Pods-SoftButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SoftButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1CBCC7A28B39A02E1E65EC478E7D2296 /* Pods-SoftButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SoftButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		26BC15798A6733246972B5FA848E0583 /* Pods-SoftButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SoftButton_Example-dummy.m"; sourceTree = "<group>"; };
+		3471DADE651070C24F8EB18CC38BEAC1 /* Pods-SoftButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SoftButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		34E0F337DFFD00FDFAD14795F44C7109 /* Pods-SoftButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SoftButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		371A527CC9673D42D9ACF849F100139C /* Pods-SoftButton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SoftButton_Tests-Info.plist"; sourceTree = "<group>"; };
+		38D1A27520F06E1B4D2D0A1B625F123B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		457D37E3720F8D806BFEDAFA6A0F7733 /* Pods-SoftButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SoftButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		470344A7DF8EEEDCF29F25145647BDB2 /* SoftButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SoftButton.debug.xcconfig; sourceTree = "<group>"; };
+		4A514B6FFE1BBD27214A4B844F8D1893 /* SoftButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SoftButton.modulemap; sourceTree = "<group>"; };
+		4A7D017F7E193BC2939A2E93EF63AF8A /* SoftButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SoftButton-Info.plist"; sourceTree = "<group>"; };
+		573AFEFC17750E60C2914073FE60A127 /* Pods-SoftButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SoftButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5B49BCD2B2FF26C33E6823D48731854D /* SoftButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SoftButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5D73A96690CC350F95DF9A7F6D534382 /* Pods_SoftButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SoftButton_Tests.framework; path = "Pods-SoftButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68A08D8B97A7F9658EDF874CE521AFEA /* SoftButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SoftButton-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77B221F0E963F248D6EDBE70093FCA6F /* Pods-SoftButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SoftButton_Example.modulemap"; sourceTree = "<group>"; };
+		7EC853EFE340707BE54E07535B3EFDF8 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SoftButton/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		87AFF426E04EB7DA075A24F8C551322F /* Pods-SoftButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SoftButton_Tests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C2CE99E05C9F962B254D7E6970885270 /* Pods-SoftButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoftButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CD212E84B78923C5803657CA628659FC /* SoftButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SoftButton.release.xcconfig; sourceTree = "<group>"; };
+		D13511B9D0846C8CA6C1D1E11033DE76 /* Pods-SoftButton_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SoftButton_Example-Info.plist"; sourceTree = "<group>"; };
+		D29F7DBD23E5670F76E94C9B16517B4C /* SoftButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SoftButton-umbrella.h"; sourceTree = "<group>"; };
+		D69C4E807745816EA70F4A9E1F3D4666 /* Pods-SoftButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoftButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D923519272E49C4589FA2FDA1C51803E /* Pods-SoftButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoftButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DEE8A2E4A34B83107E334DF6CF1017E0 /* Pods-SoftButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoftButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E80E4098E6DD6F774C6B32733000FB50 /* Pods-SoftButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SoftButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EA602F4287EF114450FF0CFEF83D2654 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EF50F9A25C0EF16E5966FB3343346F44 /* SoftButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SoftButton-prefix.pch"; sourceTree = "<group>"; };
+		F2498406C23613BC2A40566F7D3D0C7D /* SoftButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SoftButton.framework; path = SoftButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDEF3D1FF012DEF1A86B87EE088131BF /* Pods_SoftButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SoftButton_Example.framework; path = "Pods-SoftButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C52498C333C3B45B04708C7AE205A37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1A8CBD0F0FAE81F25BF3E264E56BCF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1D2A0C35E23F9EB0A850D90AB1E1178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D8EB148D95832D4B0C751034534E00C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F796B8865A8CEB7466E3C49FE7087A3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53884DA09F5FE7A0D838CC844F5CBD79 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37761136BB9898FD551A8217B1637328 /* SoftButton */ = {
+			isa = PBXGroup;
+			children = (
+				7EC853EFE340707BE54E07535B3EFDF8 /* ReplaceMe.swift */,
+				61F8B47392E6A195787D3321F2F534C3 /* Pod */,
+				69129F291ADBA614AC34FC83B3D689CA /* Support Files */,
+			);
+			name = SoftButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		402D5B7A3F503D46B1D186B88626BF8D /* Pods-SoftButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				87AFF426E04EB7DA075A24F8C551322F /* Pods-SoftButton_Tests.modulemap */,
+				1CBCC7A28B39A02E1E65EC478E7D2296 /* Pods-SoftButton_Tests-acknowledgements.markdown */,
+				573AFEFC17750E60C2914073FE60A127 /* Pods-SoftButton_Tests-acknowledgements.plist */,
+				08B62866482FD526A7DBC84E9B5E0709 /* Pods-SoftButton_Tests-dummy.m */,
+				371A527CC9673D42D9ACF849F100139C /* Pods-SoftButton_Tests-Info.plist */,
+				3471DADE651070C24F8EB18CC38BEAC1 /* Pods-SoftButton_Tests-umbrella.h */,
+				D69C4E807745816EA70F4A9E1F3D4666 /* Pods-SoftButton_Tests.debug.xcconfig */,
+				D923519272E49C4589FA2FDA1C51803E /* Pods-SoftButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-SoftButton_Tests";
+			path = "Target Support Files/Pods-SoftButton_Tests";
+			sourceTree = "<group>";
+		};
+		4AF5BEB4B869520AC647473A0B583C00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDEF3D1FF012DEF1A86B87EE088131BF /* Pods_SoftButton_Example.framework */,
+				5D73A96690CC350F95DF9A7F6D534382 /* Pods_SoftButton_Tests.framework */,
+				F2498406C23613BC2A40566F7D3D0C7D /* SoftButton.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5B1423ABA4D8AB20891DA4733AB66F49 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37761136BB9898FD551A8217B1637328 /* SoftButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		61F8B47392E6A195787D3321F2F534C3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EA602F4287EF114450FF0CFEF83D2654 /* LICENSE */,
+				38D1A27520F06E1B4D2D0A1B625F123B /* README.md */,
+				5B49BCD2B2FF26C33E6823D48731854D /* SoftButton.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		69129F291ADBA614AC34FC83B3D689CA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A514B6FFE1BBD27214A4B844F8D1893 /* SoftButton.modulemap */,
+				68A08D8B97A7F9658EDF874CE521AFEA /* SoftButton-dummy.m */,
+				4A7D017F7E193BC2939A2E93EF63AF8A /* SoftButton-Info.plist */,
+				EF50F9A25C0EF16E5966FB3343346F44 /* SoftButton-prefix.pch */,
+				D29F7DBD23E5670F76E94C9B16517B4C /* SoftButton-umbrella.h */,
+				470344A7DF8EEEDCF29F25145647BDB2 /* SoftButton.debug.xcconfig */,
+				CD212E84B78923C5803657CA628659FC /* SoftButton.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SoftButton";
+			sourceTree = "<group>";
+		};
+		6C9E45A4C07D84197D3E48730915A513 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				83C8EF5A90EB818FF48F5B08241A8AD9 /* Pods-SoftButton_Example */,
+				402D5B7A3F503D46B1D186B88626BF8D /* Pods-SoftButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		83C8EF5A90EB818FF48F5B08241A8AD9 /* Pods-SoftButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				77B221F0E963F248D6EDBE70093FCA6F /* Pods-SoftButton_Example.modulemap */,
+				0B51702D9C4B13C0D0EB85F9F335018A /* Pods-SoftButton_Example-acknowledgements.markdown */,
+				E80E4098E6DD6F774C6B32733000FB50 /* Pods-SoftButton_Example-acknowledgements.plist */,
+				26BC15798A6733246972B5FA848E0583 /* Pods-SoftButton_Example-dummy.m */,
+				457D37E3720F8D806BFEDAFA6A0F7733 /* Pods-SoftButton_Example-frameworks.sh */,
+				D13511B9D0846C8CA6C1D1E11033DE76 /* Pods-SoftButton_Example-Info.plist */,
+				34E0F337DFFD00FDFAD14795F44C7109 /* Pods-SoftButton_Example-umbrella.h */,
+				DEE8A2E4A34B83107E334DF6CF1017E0 /* Pods-SoftButton_Example.debug.xcconfig */,
+				C2CE99E05C9F962B254D7E6970885270 /* Pods-SoftButton_Example.release.xcconfig */,
+			);
+			name = "Pods-SoftButton_Example";
+			path = "Target Support Files/Pods-SoftButton_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5B1423ABA4D8AB20891DA4733AB66F49 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4AF5BEB4B869520AC647473A0B583C00 /* Products */,
+				6C9E45A4C07D84197D3E48730915A513 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		68FC214E04BE2E16756D5A617EFC7A3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1C6B409F31D28130A810AFA1F84C49 /* SoftButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		739C5C4625B6D6DFDB9B06AFD64E7512 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F4D4241EB33EC36CCC43B7B485E96A9 /* Pods-SoftButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EABA29016619B53C03AFCB5033965E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9F703E42B6EDD7A677217DFF386EE6 /* Pods-SoftButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6B8ED2876EFF239145A7C2FA6D065309 /* SoftButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E78A2F7A6E3F39131CDD9B8A8725FF0 /* Build configuration list for PBXNativeTarget "SoftButton" */;
+			buildPhases = (
+				68FC214E04BE2E16756D5A617EFC7A3C /* Headers */,
+				883496A627DFC7BBFFB96958703AFE1B /* Sources */,
+				C1D2A0C35E23F9EB0A850D90AB1E1178 /* Frameworks */,
+				22CA633E718F474A82F6D8744EFBD678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoftButton;
+			productName = SoftButton;
+			productReference = F2498406C23613BC2A40566F7D3D0C7D /* SoftButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B93F628D47215182A2BDACE265057C4D /* Pods-SoftButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D41B5B70296FF0436952980DB8167C18 /* Build configuration list for PBXNativeTarget "Pods-SoftButton_Tests" */;
+			buildPhases = (
+				739C5C4625B6D6DFDB9B06AFD64E7512 /* Headers */,
+				714605DD4C01D0A834B51D4FD84A3305 /* Sources */,
+				9C52498C333C3B45B04708C7AE205A37 /* Frameworks */,
+				26C5DEA5BA13AF3E21E60577704A02D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A31591370B91C766B20B2307D82C1870 /* PBXTargetDependency */,
+			);
+			name = "Pods-SoftButton_Tests";
+			productName = "Pods-SoftButton_Tests";
+			productReference = 5D73A96690CC350F95DF9A7F6D534382 /* Pods_SoftButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DA441183B24E46CA61C05265188B7ED5 /* Pods-SoftButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D307C8E6F27ED39ED1CBA381CCC7FC5B /* Build configuration list for PBXNativeTarget "Pods-SoftButton_Example" */;
+			buildPhases = (
+				8EABA29016619B53C03AFCB5033965E2 /* Headers */,
+				61DE6A32C475715132612A69A19FFD94 /* Sources */,
+				F796B8865A8CEB7466E3C49FE7087A3D /* Frameworks */,
+				40DC924DD5CF3AB8B5370A555375FF8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A98BCA278D637FF891A384504854FC1 /* PBXTargetDependency */,
+			);
+			name = "Pods-SoftButton_Example";
+			productName = "Pods-SoftButton_Example";
+			productReference = FDEF3D1FF012DEF1A86B87EE088131BF /* Pods_SoftButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4AF5BEB4B869520AC647473A0B583C00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA441183B24E46CA61C05265188B7ED5 /* Pods-SoftButton_Example */,
+				B93F628D47215182A2BDACE265057C4D /* Pods-SoftButton_Tests */,
+				6B8ED2876EFF239145A7C2FA6D065309 /* SoftButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22CA633E718F474A82F6D8744EFBD678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C5DEA5BA13AF3E21E60577704A02D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40DC924DD5CF3AB8B5370A555375FF8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61DE6A32C475715132612A69A19FFD94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F84CA00C6A8300513BE6E99A200CA7 /* Pods-SoftButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		714605DD4C01D0A834B51D4FD84A3305 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53A522581C3C7955BBE9A36C5822315B /* Pods-SoftButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883496A627DFC7BBFFB96958703AFE1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D619FE1FEF7F88DF0EB8D28FDA9F17 /* ReplaceMe.swift in Sources */,
+				78254B362F9B788ED098B23BDBACF303 /* SoftButton-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A98BCA278D637FF891A384504854FC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SoftButton;
+			target = 6B8ED2876EFF239145A7C2FA6D065309 /* SoftButton */;
+			targetProxy = A081B5A6AA0B836A0124CE3D72490C5B /* PBXContainerItemProxy */;
+		};
+		A31591370B91C766B20B2307D82C1870 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SoftButton_Example";
+			target = DA441183B24E46CA61C05265188B7ED5 /* Pods-SoftButton_Example */;
+			targetProxy = E0F9F443CBE6A9D36BF31F4C06C91812 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		686F0B231E9D30C85533558F8A1C7F60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D69C4E807745816EA70F4A9E1F3D4666 /* Pods-SoftButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SoftButton_Tests/Pods-SoftButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SoftButton_Tests/Pods-SoftButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		87D434290105591834B48CC990567ED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D923519272E49C4589FA2FDA1C51803E /* Pods-SoftButton_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SoftButton_Tests/Pods-SoftButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SoftButton_Tests/Pods-SoftButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A852F1E577E50C3D14B524BCB3CBABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2CE99E05C9F962B254D7E6970885270 /* Pods-SoftButton_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SoftButton_Example/Pods-SoftButton_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SoftButton_Example/Pods-SoftButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B1ACDB55E91D86809E174AEEF0503C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 470344A7DF8EEEDCF29F25145647BDB2 /* SoftButton.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SoftButton/SoftButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SoftButton/SoftButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SoftButton/SoftButton.modulemap";
+				PRODUCT_MODULE_NAME = SoftButton;
+				PRODUCT_NAME = SoftButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		93F7DEA946C7D64BF423D98600FEBB09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEE8A2E4A34B83107E334DF6CF1017E0 /* Pods-SoftButton_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SoftButton_Example/Pods-SoftButton_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SoftButton_Example/Pods-SoftButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EDC63B492EF058C65FB48D47A950E280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD212E84B78923C5803657CA628659FC /* SoftButton.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SoftButton/SoftButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SoftButton/SoftButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SoftButton/SoftButton.modulemap";
+				PRODUCT_MODULE_NAME = SoftButton;
+				PRODUCT_NAME = SoftButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E78A2F7A6E3F39131CDD9B8A8725FF0 /* Build configuration list for PBXNativeTarget "SoftButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B1ACDB55E91D86809E174AEEF0503C2 /* Debug */,
+				EDC63B492EF058C65FB48D47A950E280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D307C8E6F27ED39ED1CBA381CCC7FC5B /* Build configuration list for PBXNativeTarget "Pods-SoftButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F7DEA946C7D64BF423D98600FEBB09 /* Debug */,
+				8A852F1E577E50C3D14B524BCB3CBABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D41B5B70296FF0436952980DB8167C18 /* Build configuration list for PBXNativeTarget "Pods-SoftButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				686F0B231E9D30C85533558F8A1C7F60 /* Debug */,
+				87D434290105591834B48CC990567ED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

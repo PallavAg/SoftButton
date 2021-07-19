@@ -1,0 +1,16 @@
+PODS:
+  - SoftButton (0.1.0)
+
+DEPENDENCIES:
+  - SoftButton (from `../`)
+
+EXTERNAL SOURCES:
+  SoftButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SoftButton: 2c0e8314697476e8be2a4eee2ba72de7111151e9
+
+PODFILE CHECKSUM: 77e2c161d8eb292d9d7c39636cd0ec18f64c32b2
+
+COCOAPODS: 1.10.1
