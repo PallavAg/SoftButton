@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SoftButton'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SoftButton.'
+  s.summary          = 'Simple Soft UI Neumorphic effect for UIButtons in Swift.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,20 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'SoftButton is a simple UIButton extension that gives buttons a beautiful Soft UI Neumorphic effect with support for both light mode and dark mode.'
                        DESC
 
   s.homepage         = 'https://github.com/PallavAg/SoftButton'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots      = 'https://i.imgur.com/CqGblJd.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'PallavAg' => 'agpallav@gmail.com' }
+  s.author           = { 'Pallav Agarwal' => 'agpallav@gmail.com' }
   s.source           = { :git => 'https://github.com/PallavAg/SoftButton.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/pallavmac'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '13.0'
 
-  s.source_files = 'SoftButton/Classes/**/*'
+  s.source_files = 'Source/**/*.swift'
+
+  s.frameworks = 'UIKit'
   
-  # s.resource_bundles = {
-  #   'SoftButton' => ['SoftButton/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
